@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background"
+    tools:context=".commondetails">
+
+    <TextView
+        android:id="@+id/excTextView1"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="52dp"
+        android:text="Get Fit With The Best"
+        android:textAlignment="center"
+        android:textColor="#426FA4"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/excView1"
+        android:layout_width="338dp"
+        android:layout_height="572dp"
+        android:layout_marginStart="40dp"
+
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="51dp"
+        android:background="@drawable/custom_radious"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/excTextView1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/excTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Body Disorders :"
+        android:textColor="@color/black"
+
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/excTextView3"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.166"
+
+        app:layout_constraintStart_toStartOf="@+id/excView1" />
+
+    <TextView
+        android:id="@+id/excTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Activity status :"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/excTextView4"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.144"
+
+        app:layout_constraintStart_toStartOf="@+id/excView1" />
+
+    <TextView
+        android:id="@+id/excTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Body fat :"
+
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/excTextView5"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="@+id/excView1" />
+
+    <TextView
+        android:id="@+id/excTextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="44dp"
+        android:text="Grap Face :"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/excTextView6"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="@+id/excView1" />
+
+    <TextView
+        android:id="@+id/excTextView6"
+        android:layout_width="173dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="48dp"
+        android:text="Sit and bend forward length :"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/excTextView7"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.007"
+        app:layout_constraintStart_toStartOf="@+id/excView1" />
+
+    <TextView
+        android:id="@+id/excTextView7"
+        android:layout_width="167dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="32dp"
+        android:text="Sit ups count :"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/excTextView8"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="@+id/excView1" />
+
+    <TextView
+        android:id="@+id/excTextView8"
+        android:layout_width="184dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="80dp"
+        android:text="Broad jump length :"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/excView1"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/excView1" />
+
+    <EditText
+        android:id="@+id/excEditText1"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+
+
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toEndOf="@+id/excTextView2"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/excEditText2"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="84dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/excView1"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toEndOf="@+id/excTextView8"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/excEditText3"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/excEditText4"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toEndOf="@+id/excTextView4"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/excEditText4"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/excEditText5"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toEndOf="@+id/excTextView5"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/excEditText5"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="48dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/excEditText6"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toEndOf="@+id/excTextView6"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/excEditText6"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="183dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/excEditText2"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="@+id/excTextView7"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/excNextButton"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/custom_button"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/excView1"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="@+id/excView1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/excEditText3"
+        app:layout_constraintEnd_toEndOf="@+id/excView1"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toEndOf="@+id/excTextView3">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbRight"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_right_selector"
+            android:button="@android:color/transparent"
+            android:checked="false"
+            android:gravity="center"
+            android:onClick="onRadioButtonClicked"
+
+            android:text="Yes"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbLeft"
+            android:layout_width="61dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_left_selector"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:gravity="center"
+            android:onClick="onRadioButtonClicked"
+            android:text="No"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
